@@ -1,0 +1,40 @@
+{
+    "name" : "luster-guard",
+    "version" : "0.2.1",
+    "description" : "Restart workers on file system changes",
+    "main" : "./lib/extension.js",
+    "scripts" : {
+        "test" : "jshint --config ./.jshintrc ./lib && jscs ./lib"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/nodules/luster-guard.git"
+    },
+    "keywords" : [
+        "luster",
+        "guard",
+        "watch"
+    ],
+    "author" : "Phillip Kovalev <twilightfeel@gmail.com> (https://github.com/kaero)",
+    "maintainers" : [
+        "Phillip Kovalev <twilightfeel@gmail.com> (https://github.com/kaero)"
+    ],
+    "contributors" : [
+        "Anton Drachev <anton@drachev.com> (https://github.com/omgtehlion)"
+    ],
+    "licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "http://github.com/nodules/luster-guard/raw/master/LICENSE"
+        }
+    ],
+    "readmeFilename" : "README.md",
+    "dependencies" : {
+        "gaze" : "0.4.x",
+        "minimatch" : "0.2.x"
+    },
+    "devDependencies" : {
+        "jshint" : "2.1.x",
+        "jscs" : ">=1.0.5"
+    }
+}
