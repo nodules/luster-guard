@@ -1,3 +1,9 @@
+luster-guard (0.3.1); urgency=low
+
+  * Remove redundant direct dependency from minimatch
+
+ -- Phillip Kovalev <twilightfeel@gmail.com>  Sun, 16 Feb 2014 21:32:10 +0400
+
 luster-guard (0.3.0); urgency=low
 
   * Change paths filter configuration to native for globule (which is used by gaze).

@@ -1,6 +1,6 @@
 {
     "name" : "luster-guard",
-    "version" : "0.3.0",
+    "version" : "0.3.1",
     "description" : "Restart workers on file system changes",
     "main" : "./lib/extension.js",
     "scripts" : {
@@ -31,8 +31,7 @@
     ],
     "readmeFilename" : "README.md",
     "dependencies" : {
-        "gaze" : "0.4.x",
-        "minimatch" : "0.2.x"
+        "gaze" : "0.4.x"
     },
     "devDependencies" : {
         "jshint" : "2.1.x",
