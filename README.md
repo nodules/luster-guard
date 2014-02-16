@@ -33,12 +33,7 @@ module.exports = {
             events : [ 'added', 'changed', 'deleted' ],
 
             // if not defined, all files will be included in monitoring
-            // note: this list uses https://github.com/isaacs/minimatch to match file paths
-            include: [ '**/*.js' ],
-
-            // excluded files
-            // this option has higher priority than "include"
-            exclude: [ '**/node_modules/**' ]
+            patterns: [ '**/*.js', '!**/node_modules/**' ],
         }
     }
 };

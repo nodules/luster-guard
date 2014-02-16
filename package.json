@@ -1,6 +1,6 @@
 {
     "name" : "luster-guard",
-    "version" : "0.2.1",
+    "version" : "0.3.0",
     "description" : "Restart workers on file system changes",
     "main" : "./lib/extension.js",
     "scripts" : {
@@ -20,7 +20,8 @@
         "Phillip Kovalev <twilightfeel@gmail.com> (https://github.com/kaero)"
     ],
     "contributors" : [
-        "Anton Drachev <anton@drachev.com> (https://github.com/omgtehlion)"
+        "Anton Drachev <anton@drachev.com> (https://github.com/omgtehlion)",
+        "Dmitriy Vinokurov <vinokuroff.dm@gmail.com> (https://github.com/vindm)"
     ],
     "licenses" : [
         {
