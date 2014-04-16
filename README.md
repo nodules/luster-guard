@@ -25,6 +25,9 @@ module.exports = {
             // fs events handler debounce timeout (ms)
             debounce : 2000,
 
+            // gaze fs polling interval (ms)
+            interval : 300,
+
             // don't log events, default: false
             silent : true,
 
