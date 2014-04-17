@@ -1,3 +1,10 @@
+luster-guard (0.4.0); urgency=low
+
+  * Pass the FS polling interval from the extension config to the Gaze
+  * Update Gaze from 0.4 to lastest 0.6
+
+ -- Phillip Kovalev <twilightfeel@gmail.com>  Thu, 17 Apr 2014 13:57:19 +0400
+
 luster-guard (0.3.1); urgency=low
 
   * Remove redundant direct dependency from minimatch
