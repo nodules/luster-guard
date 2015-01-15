@@ -1,4 +1,8 @@
-# luster-guard
+luster-guard [![NPM version][npm-image]][npm-link]
+============
+
+[![Dependency status][deps-image]][deps-link]
+[![Development Dependency status][devdeps-image]][devdeps-link]
 
 Restart workers on file system changes.
 
@@ -43,3 +47,10 @@ module.exports = {
 ```
 
 Have fun!
+
+[npm-image]: https://img.shields.io/npm/v/luster-guard.svg?style=flat
+[npm-link]: https://npmjs.org/package/luster-guard
+[deps-image]: https://img.shields.io/david/nodules/luster-guard.svg?style=flat
+[deps-link]: https://david-dm.org/nodules/luster-guard
+[devdeps-image]: https://img.shields.io/david/dev/nodules/luster-guard.svg?style=flat
+[devdeps-link]: https://david-dm.org/nodules/luster-guard#info=devDependencies
