@@ -29,15 +29,11 @@ module.exports = {
             // fs events handler debounce timeout (ms)
             debounce : 2000,
 
-            // gaze fs polling interval (ms)
+            // chokidar fs polling interval (ms)
             interval : 300,
 
             // don't log events, default: false
             silent : true,
-
-            // events to listen to
-            // be careful, some events can be fired without any visible reason
-            events : [ 'added', 'changed', 'deleted' ],
 
             // if not defined, all files will be included in monitoring
             patterns: [ '**/*.js', '!**/node_modules/**' ],
