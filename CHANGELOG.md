@@ -1,10 +1,10 @@
 # Changelog
 
-## 0.5.0 - UNRELEASED
+## 0.5.0 - 2015-09-30
 
 Vladimir Varankin <nek.narqo@gmail.com>
 
-* Use [chokidar](https://www.npmjs.com/package/chokidar) for FS events watching (#7)
+* Use [chokidar](https://www.npmjs.com/package/chokidar) for FS events watching (#7) (#8)
 * Remove events option (#9)
 * Add example
 
