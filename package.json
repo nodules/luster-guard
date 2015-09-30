@@ -1,40 +1,42 @@
 {
-    "name" : "luster-guard",
-    "version" : "0.4.0",
-    "description" : "Restart workers on file system changes",
-    "main" : "./lib/extension.js",
-    "scripts" : {
-        "test" : "jshint --config ./.jshintrc ./lib && jscs ./lib"
-    },
-    "repository" : {
-        "type" : "git",
-        "url" : "git://github.com/nodules/luster-guard.git"
-    },
-    "keywords" : [
-        "luster",
-        "guard",
-        "watch"
-    ],
-    "author" : "Phillip Kovalev <twilightfeel@gmail.com> (https://github.com/kaero)",
-    "maintainers" : [
-        "Phillip Kovalev <twilightfeel@gmail.com> (https://github.com/kaero)"
-    ],
-    "contributors" : [
-        "Anton Drachev <anton@drachev.com> (https://github.com/omgtehlion)",
-        "Dmitriy Vinokurov <vinokuroff.dm@gmail.com> (https://github.com/vindm)"
-    ],
-    "licenses" : [
-        {
-            "type" : "MIT",
-            "url" : "http://github.com/nodules/luster-guard/raw/master/LICENSE"
-        }
-    ],
-    "readmeFilename" : "README.md",
-    "dependencies" : {
-        "gaze" : "0.6.x"
-    },
-    "devDependencies" : {
-        "jshint" : "2.1.x",
-        "jscs" : ">=1.0.5"
+  "name": "luster-guard",
+  "version": "0.4.0",
+  "description": "Restart workers on file system changes",
+  "main": "./lib/extension.js",
+  "scripts": {
+    "lint": "jshint --config ./.jshintrc ./lib && jscs ./lib",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nodules/luster-guard.git"
+  },
+  "keywords": [
+    "luster",
+    "guard",
+    "watch"
+  ],
+  "author": "Phillip Kovalev <twilightfeel@gmail.com> (https://github.com/kaero)",
+  "maintainers": [
+    "Phillip Kovalev <twilightfeel@gmail.com> (https://github.com/kaero)"
+  ],
+  "contributors": [
+    "Anton Drachev <anton@drachev.com> (https://github.com/omgtehlion)",
+    "Dmitriy Vinokurov <vinokuroff.dm@gmail.com> (https://github.com/vindm)"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/nodules/luster-guard/raw/master/LICENSE"
     }
+  ],
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "chokidar": "^1.1.0",
+    "debounce": "^1.0.0"
+  },
+  "devDependencies": {
+    "jscs": "~1.4.0",
+    "jshint": "2.1.x"
+  }
 }

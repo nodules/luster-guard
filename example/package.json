@@ -1,0 +1,10 @@
+{
+  "name": "luster-guard-example",
+  "scripts": {
+    "install": "ln -sf ../.. node_modules/luster-guard",
+    "start": "luster luster.json"
+  },
+  "devDependencies": {
+    "luster": "^0.5.8"
+  }
+}
