@@ -4,7 +4,7 @@
   "description": "Restart workers on file system changes",
   "main": "./lib/extension.js",
   "scripts": {
-    "lint": "jshint --config ./.jshintrc ./lib && jscs ./lib",
+    "lint": "eslint lib && jscs lib",
     "test": "npm run lint"
   },
   "repository": {
@@ -36,7 +36,9 @@
     "debounce": "^1.0.0"
   },
   "devDependencies": {
-    "jscs": "~1.4.0",
-    "jshint": "2.1.x"
+    "eslint": "^1.10.3",
+    "eslint-config-nodules": "^0.1.1",
+    "jscs": "^2.6.0",
+    "jscs-preset-nodules": "^0.1.0"
   }
 }
