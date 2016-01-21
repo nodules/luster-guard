@@ -29,10 +29,13 @@ module.exports = {
             interval : 300,
 
             // don't log events, default: false
-            silent : true,
+            silent : false,
 
             // if not defined, all files will be included in monitoring
             patterns: [ '**/*.js', '!**/node_modules/**' ],
+
+            // restart workers in sequence, default: true
+            softRestart: true
         }
     }
 };
