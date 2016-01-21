@@ -22,10 +22,6 @@ module.exports = {
 
     extensions : {
         "luster-guard" : {
-            // path of the monitoring root
-            // absolute or relative to config
-            path : '../..',
-
             // fs events handler debounce timeout (ms)
             debounce : 2000,
 
