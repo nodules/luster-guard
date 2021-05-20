@@ -32,7 +32,7 @@
   ],
   "readmeFilename": "README.md",
   "dependencies": {
-    "chokidar": "^1.1.0",
+    "chokidar": "^3.5.1",
     "debounce": "^1.0.0"
   },
   "devDependencies": {
