@@ -33,12 +33,12 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "chokidar": "^3.5.1",
-    "debounce": "^1.0.0"
+    "debounce": "^1.2.1"
   },
   "devDependencies": {
-    "eslint": "^1.10.3",
-    "eslint-config-nodules": "^0.1.1",
-    "jscs": "^2.6.0",
+    "eslint": "^7.26.0",
+    "eslint-config-nodules": "^0.4.0",
+    "jscs": "^3.0.7",
     "jscs-preset-nodules": "^0.1.0"
   }
 }
